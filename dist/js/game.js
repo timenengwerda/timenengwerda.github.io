@@ -133,7 +133,7 @@ var Game = function Game() {
         document.querySelector('#bonusMultiplier').innerHTML = _this.getBonusMultiplier();
     };
 
-    this.currentCoinAmount = options.currentCoinAmount ? options.currentCoinAmount : 300;
+    this.currentCoinAmount = options.currentCoinAmount ? options.currentCoinAmount : 0;
     this.amountPerSecond = options.amountPerSecond ? options.amountPerSecond : 0;
     this.amountPerClick = options.amountPerClick ? options.amountPerClick : 1;
     this.clickBonusMultiplier = options.clickBonusMultiplier ? options.clickBonusMultiplier : 100;

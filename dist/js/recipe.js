@@ -126,7 +126,7 @@ var Recipe = function () {
 
         this.createTemplate();
 
-        if (this.level >= this.maxLevel) {
+        if (this.level > this.maxLevel) {
             this.persists = false;
         }
     }
