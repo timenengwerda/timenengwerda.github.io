@@ -93,8 +93,7 @@ var Recipe = function () {
                     }
 
                     ++_this.level;
-                    _this.price += Math.round(_this.price * (.055 * (_this.level - 1)));
-                    _this.upgradeIncreaseprice += Math.round(_this.price * (.015 * (_this.level - 1)));
+                    _this.price += Math.round(_this.basePrice * 1.15);
 
                     if (_this.level >= _this.maxLevel) {
                         _this.persists = false;
@@ -110,6 +109,7 @@ var Recipe = function () {
         this.id = options.id ? options.id : true;
         this.persists = options.persists ? options.persists : true;
         this.price = options.price ? options.price : 0;
+        this.basePrice = options.basePrice ? options.basePrice : 0;
         this.title = options.title ? options.title : 0;
         this.level = options.level ? options.level : 0;
         this.maxLevel = options.maxLevel ? options.maxLevel : 999999;
