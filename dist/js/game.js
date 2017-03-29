@@ -43,7 +43,7 @@ var Game = function Game() {
     };
 
     this.setAmountPerSecond = function (amount) {
-        return _this.amountPerSecond = amount;
+        return _this.amountPerSecond = amount.toFixed(2);
     };
 
     this.getAmountPerSecond = function () {
