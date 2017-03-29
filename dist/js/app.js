@@ -12,8 +12,8 @@ var recipes = [{
     }
 }, {
     title: 'Item 2',
-    price: 210,
-    basePrice: 210,
+    price: 60,
+    basePrice: 60,
     level: 1,
     description: 'Increases amount per second by:',
     upgrade: {
@@ -22,8 +22,8 @@ var recipes = [{
     }
 }, {
     title: 'Item 3',
-    price: 300,
-    basePrice: 300,
+    price: 67,
+    basePrice: 67,
     level: 1,
     description: 'Increases amount per second by:',
     upgrade: {
@@ -43,8 +43,8 @@ var recipes = [{
     }
 }, {
     title: 'Mega booster 2',
-    price: 5000,
-    basePrice: 5000,
+    price: 3000,
+    basePrice: 3000,
     level: 1,
     maxLevel: 3,
     description: 'Adds an extra percentage to your clicks by:',
