@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Bonny",
+    "avatar": "https://i.ibb.co/svwJgvw/Screenshot-2023-04-17-at-18-24-47.png",
+    "disabled": false,
+    "armorClass": 18
+  },
+  {
+    "name": "Erna",
+    "avatar": "https://i.ibb.co/RjpTkcM/Screenshot-2023-04-17-at-18-24-38.png",
+    "disabled": false,
+    "armorClass": 16
+  },
+  {
+    "name": "Gimble",
+    "avatar": "https://i.ibb.co/3CNndRm/Screenshot-2023-04-17-at-18-24-54.png",
+    "disabled": false,
+    "armorClass": 12
+  },
+  {
+    "name": "Sneek",
+    "avatar": "https://i.ibb.co/vzDsMf1/Screenshot-2023-04-17-at-18-24-42.png",
+    "disabled": false,
+    "armorClass": 14
+  },
+  {
+    "name": "Face",
+    "avatar": "https://i.ibb.co/Sx9xkKv/Screenshot-2023-04-17-at-18-24-50.png",
+    "disabled": false,
+    "armorClass": 12
+  }
+]
